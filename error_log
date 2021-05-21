@@ -1,0 +1,43 @@
+[06-May-2021 14:54:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/shopcro1/public_html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/shopcro1/public_html/index.php on line 2
+[06-May-2021 14:54:48 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/shopcro1/public_html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/shopcro1/public_html/index.php on line 2
+[06-May-2021 14:55:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/shopcro1/public_html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/shopcro1/public_html/index.php on line 2
+[06-May-2021 14:55:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/shopcro1/public_html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/shopcro1/public_html/index.php on line 2
+[07-May-2021 18:44:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/shopcro1/public_html/app/Http/Controllers/home/refferal/RefferalController.php on line 4
+[10-May-2021 07:49:55 Asia/Ho_Chi_Minh] PHP Fatal error:  Unknown: Failed opening required '/home/shopcro1/public_html/index.php' (include_path='.:/opt/alt/php74/usr/share/pear') in Unknown on line 0
+[10-May-2021 07:49:55 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): read of 914 bytes failed with errno=12 Cannot allocate memory in /home/shopcro1/public_html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'include(): read...', '/home/shopcro1/...', 444, Array)
+#1 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): include()
+#2 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/shopcro1/...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#4 /home/shopcro1/public_html/app/Http/Controllers/Auth/LoginController.php(9): spl_autoload_call('Illuminate\\Foun...')
+#5 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): include('/home/shopcro1/...')
+#6 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/shopcro1/...')
+#7 [internal  in /home/shopcro1/public_html/app/Http/Controllers/Auth/LoginController.php on line 9
+[10-May-2021 07:49:55 Asia/Ho_Chi_Minh] PHP Fatal error:  During class fetch: Uncaught ErrorException: include(): read of 3468 bytes failed with errno=12 Cannot allocate memory in /home/shopcro1/public_html/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'include(): read...', '/home/shopcro1/...', 444, Array)
+#1 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): include()
+#2 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/shopcro1/...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Queu...')
+#4 /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php(8): spl_autoload_call('Illuminate\\Queu...')
+#5 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(444): include('/home/shopcro1/...')
+#6 /home/shopcro1/public_html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/shopcr in /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Queue/SerializesModels.php on line 8
+[13-May-2021 06:01:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '103.130.217.74' (115) in /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=103....', 'shopcro1', 'FKg39.J1O@wm0c', Array)
+#1 /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=103....', 'shopcro1', 'FKg39.J1O@wm0c', Array)
+#2 /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=103....', Array, Array)
+#3 /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Connectors\MySqlConnector->connect(Array in /home/shopcro1/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 678
